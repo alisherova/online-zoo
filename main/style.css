@@ -11,7 +11,6 @@ html{
 
 header {
    background: #000000;
-
 }
 
 .container {
@@ -21,21 +20,44 @@ header {
 
 .header {
    color: #fff;
-
    padding: 0.8rem 0;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
 }
 
 .header-top {
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 12fr;
    align-items: center;
    gap: 4rem;
 }
 
+.logo_img{
+   position: absolute;
+   left: 7%;
+   top: 40%;
+}
+
 .logo {
-   margin-left: 4px;
+   position: relative;
+   margin-left: 5px;
+   margin-top: 2px;
+   padding: 3px 2px;
+   text-align: center;
+   font-size: 8px !important;
+   font-weight: lighter !important;
+   /* line-height: 120%; */
+   border: 1.18841px solid #FFFFFF;
+}
+
+.footer_logo{
+   border: none;
+   text-align: start;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
 }
 
 nav ul {
@@ -48,6 +70,14 @@ nav ul li {
    list-style: none;
 }
 
+nav ul li:nth-child(2) a{
+   margin-left: 2px;
+}
+
+nav ul li:nth-child(3) a{
+   margin-left: 4px;
+}
+
 header a {
    color: #fff;
    text-decoration: none;
@@ -57,6 +87,9 @@ header a {
    color: #F9804B;
 }
 
+header a:hover{
+   color:#e09575;
+}
 
 .firstSection {
    background-image: url(../assets/images/Giant\ Panda.png);
@@ -99,7 +132,7 @@ header a {
    color: #FFFFFF;
    text-align: center;
    text-transform: uppercase;
-   margin-top: 3.7rem;
+   margin-top: 4rem;
    margin-right: 6.4rem;
    float: right;
    border: none;
@@ -128,28 +161,28 @@ header a {
 .backstage_section {
    display: flex;
    gap: 5.6rem;
-   margin-top: 2.6rem;
+   margin-top: 2.8rem;
 }
 
 .backstage_title {
    font-weight: 400;
    font-size: 3rem;
    line-height: 120%;
-   margin-bottom: 1.2rem;
+   margin-bottom: 1.4rem;
 }
 
 .backstage_text {
    font-weight: 400;
    font-size: 1rem;
-   line-height: 123%;
+   line-height: 128%;
 }
 
 .backstage_subtitle {
    font-weight: 400;
    font-size: 1.5rem;
    line-height: 120%;
-   margin-top: 3.4rem;
-   margin-bottom: 2rem;
+   margin-top: 3.5rem;
+   margin-bottom: 2.2rem;
 }
 
 .third_section {
@@ -183,16 +216,17 @@ header a {
    padding-bottom: 5px;
 }
 
-.card>img {
+.card_img {
    width: 100%;
 }
 
-.card>img:hover{
+.card_img:hover{
    transform: scale(1.15);
    transition: all 0.3s ease-in-out;
 }
 
-.card>img:hover .card_content{
+.card_img:hover .card_content_title,
+.card_img:hover .card_content_subtitle{
    display: none !important;
 }
 
@@ -280,7 +314,7 @@ header a {
    font-size: 0.86rem;
    font-weight: 500;
    color: #333B41;
-   letter-spacing: 0.2px;
+   letter-spacing: 0.1px;
    text-align: start;
 
 }
@@ -289,6 +323,10 @@ header a {
    color: #333B41;
    border-bottom: 1.5px solid #FE9013;
    text-decoration: none;
+}
+
+.donate_link:hover{
+   color: #FE9013;
 }
 
 .howItWorkTitle {
@@ -434,6 +472,12 @@ input[type="range"]::-webkit-slider-thumb {
    box-shadow: -500px 0 0 500px #FE9013;
 }
 
+input[type="range"]:hover{
+   border: 1px solid #FE9013;
+   outline: #E47209 !important;
+   cursor:pointer;
+}
+
 .testimonals button,
 .footer .orange_btn {
    float: none;
@@ -491,7 +535,7 @@ footer {
 }
 
 .footer .orange_btn {
-   margin-top: 4.25rem;
+   margin-top: 3.9rem;
    margin-bottom: 2.75rem;
 }
 
