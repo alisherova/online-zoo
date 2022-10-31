@@ -420,8 +420,7 @@ header a:hover{
    background: #F1F3F2;
    padding: 1rem;
    border-radius: 20px;
-   border: 2px solid;
-   border-image-source: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+   border: 2px solid rgba(254, 189, 171, 0.74);
 }
 
 .testimonals_card_header {
@@ -458,7 +457,6 @@ input[type="range"] {
    border-radius: 30px;
    box-shadow: inset 1px 1px 5px 2px rgb(226, 226, 226);
    margin-top: 1.5rem;
-
 }
 
 input[type="range"]:hover::-webkit-slider-thumb {
