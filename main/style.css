@@ -70,6 +70,10 @@ nav ul li {
    list-style: none;
 }
 
+nav ul li:active a{
+   color:#E47209;
+}
+
 nav ul li:nth-child(2) a{
    margin-left: 2px;
 }
@@ -225,9 +229,9 @@ header a:hover{
    transition: all 0.3s ease-in-out;
 }
 
-.card_img:hover .card_content_title,
-.card_img:hover .card_content_subtitle{
+.card_img:hover+.card_content{
    display: none !important;
+   transition: all 0.3s ease-in-out;
 }
 
 .arrow {
@@ -521,8 +525,11 @@ footer {
    text-decoration: none;
 }
 
-.social_media:active p {
+.social_media:active p a{
    color: green;
+}
+.social_media:hover p a{
+   color: #F9804B;
 }
 
 .footer_img_box {
@@ -557,6 +564,10 @@ footer {
    color: #fff;
 }
 
+.footer_nav ul li:hover a{
+   color:#E47209;
+}
+
 .footer_email_input{
    margin-left: 2.25rem;
 }
@@ -569,6 +580,7 @@ footer {
 }
 
 .email_input {
+   outline: none;
    background: transparent;
    border: 1px solid #FE9013;
    padding: 0.85rem;
@@ -578,7 +590,6 @@ footer {
 }
 
 .email_input:active{
-   background: #FFFFFF;
    border: 1px solid #4B9200 !important;
 }
 
@@ -588,6 +599,14 @@ footer {
    color: red;
    border-radius: 5px;
    border: 1px solid crimson;
+   cursor:pointer;
+}
+
+.submit_btn:hover{
+   background: white;
+   color: #FE9013;
+   border: 1px solid #FE9013;
+
 }
 
 .submit_btn:active{
