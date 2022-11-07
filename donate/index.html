@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <title>Document</title>
   </head>
 
@@ -21,17 +25,16 @@
               <li><a href="../index.html">About</a></li>
               <li><a href="">Map</a></li>
               <li><a href="">Zoos</a></li>
-              <li><a class="active" href="../donate/index.html">Donate</a></li>
+              <li><a class="active" href="./index.html">Donate</a></li>
               <li><a href="">Contact us</a></li>
             </ul>
+            <a
+              class="header_link"
+              href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"
+              >Designed by ©</a
+            >
           </nav>
         </div>
-        <p class="header_link">
-          <a
-            href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"
-            >Designed by ©</a
-          >
-        </p>
       </div>
     </header>
     <main>
@@ -80,77 +83,116 @@
           </div>
           <div class="amount_div">
             <p class="amount_text">Amount</p>
-            <div class="progress-bar">
-              <div class="progress-step">
-                <div class="wrapper"><div class="step-count"></div></div>
-                <div class="step-description">
-                  <img src="../assets/images/5000.png" alt="dollar" />
+            <div class="wrapper">
+              <div class="item">
+                <div class="dot">
+                  <input type="radio" name="dot" id="e1" />
+                  <div class="circles">
+                    <div class="circle2"><div class="circle1"></div></div>
+                  </div>
+                  <p class="price price1">
+                    <i class="fa-solid fa-dollar-sign"></i> 5000
+                  </p>
                 </div>
               </div>
-              <div class="progress-step">
-                <div class="wrapper">
-                  <div class="step-count"></div>
-                </div>
-                <div class="step-description">
-                  <img src="../assets/images/2000.png" alt="dollar" />
-                </div>
-              </div>
-              <div class="progress-step">
-                <div class="wrapper">
-                  <img src="../assets/images/roller_icon.png" alt="" />
-                  <div class="step-count is-active"></div>
-                </div>
-                <div class="step-description">
-                  <img src="../assets/images/1000.png" alt="dollar" />
+              <div class="line"></div>
+              <div class="item">
+                <div class="dot">
+                  <input type="radio" name="dot" id="e2" />
+                  <div class="circles">
+                    <div class="circle2"><div class="circle1"></div></div>
+                  </div>
+                  <p class="price price2">
+                    <i class="fa-solid fa-dollar-sign"></i> 2000
+                  </p>
                 </div>
               </div>
-              <div class="progress-step">
-                <div class="wrapper"><div class="step-count"></div></div>
-                <div class="step-description">
-                  <img src="../assets/images/dollar.png" alt="dollar" />
+              <div class="line"></div>
+              <div class="item">
+                <div class="dot">
+                  <input type="radio" checked name="dot" id="e3" />
+                  <div class="circles">
+                    <div class="circle2"><div class="circle1"></div></div>
+                  </div>
+                  <p class="price price3 active">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    1000
+                  </p>
                 </div>
               </div>
-              <div class="progress-step">
-                <div class="wrapper"><div class="step-count"></div></div>
-                <div class="step-description">
-                  <img src="../assets/images/dollar (4).png" alt="dollar" />
+              <div class="line"></div>
+              <div class="item">
+                <div class="dot">
+                  <input type="radio" name="dot" id="e8" />
+                  <div class="circles">
+                    <div class="circle2"><div class="circle1"></div></div>
+                  </div>
+                  <p class="price price8">
+                    <i class="fa-solid fa-dollar-sign"></i> 500
+                  </p>
                 </div>
               </div>
-              <div class="progress-step">
-                <div class="wrapper"><div class="step-count"></div></div>
-                <div class="step-description">
-                  <img src="../assets/images/dollar (1).png" alt="dollar" />
+              <div class="line"></div>
+              <div class="item">
+                <div class="dot">
+                  <input type="radio" name="dot" id="e4" />
+                  <div class="circles">
+                    <div class="circle2"><div class="circle1"></div></div>
+                  </div>
+                  <p class="price price4">
+                    <i class="fa-solid fa-dollar-sign"></i> 250
+                  </p>
                 </div>
               </div>
-              <div class="progress-step">
-                <div class="wrapper"><div class="step-count"></div></div>
-                <div class="step-description">
-                  <img src="../assets/images/dollar (2).png" alt="dollar" />
+              <div class="line"></div>
+              <div class="item">
+                <div class="dot">
+                  <input type="radio" name="dot" id="e5" />
+                  <div class="circles">
+                    <div class="circle2"><div class="circle1"></div></div>
+                  </div>
+                  <p class="price price5">
+                    <i class="fa-solid fa-dollar-sign"></i> 100
+                  </p>
                 </div>
               </div>
-              <div class="progress-step">
-                <div class="wrapper"><div class="step-count"></div></div>
-                <div class="step-description">
-                  <img src="../assets/images/dollar (3).png" alt="dollar" />
+              <div class="line"></div>
+              <div class="item">
+                <div class="dot">
+                  <input type="radio" name="dot" id="e9" />
+                  <div class="circles">
+                    <div class="circle2"><div class="circle1"></div></div>
+                  </div>
+                  <p class="price price9">
+                    <i class="fa-solid fa-dollar-sign"></i>50
+                  </p>
+                </div>
+              </div>
+              <div class="line"></div>
+              <div class="item lastItem">
+                <div class="dot">
+                  <input type="radio" name="dot" id="e6" />
+                  <div class="circles">
+                    <div class="circle2"><div class="circle1"></div></div>
+                  </div>
+                  <p class="price price6">
+                    <i class="fa-solid fa-dollar-sign"></i>25
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="amount_input_div">
             <input type="number" placeholder="Another amount" />
-            <img
-              class="dollarSign"
-              src="../assets/images/dollar_sign.png"
-              alt="dollar_sign"
-            />
+            <i class="fa-sharp fa-solid fa-dollar-sign dollarSign"></i>
           </div>
           <div class="radio_inputs">
             <div class="radio_div">
-              <input type="radio" id="month" />
+              <input type="radio" id="month" name="radios" />
               <label for="month">Monthly</label>
             </div>
             <div class="radio_div">
-              <input type="radio" id="once" checked class="checked" />
+              <input type="radio" id="once" checked name="radios" />
               <label for="once">Once</label>
             </div>
           </div>
@@ -164,11 +206,12 @@
     <footer>
       <div class="footer container">
         <div class="footer_social_medias">
-          <a class="logo" href="#">
-            <img src="../assets/images/logo_footer.svg" alt="logo_footer" />
+          <a class="logo footer_logo" href="../index.html">
+            <h1>PetStory Online</h1>
+            <img class="logo_img" src="../assets/images/bamboo.svg" alt="" />
           </a>
           <button class="orange_btn">
-            <a href="../donate/index.html"> donate for volunteers </a>
+            <a href="./index.html"> donate for volunteers </a>
           </button>
           <div class="social_medias">
             <div class="social_media">
@@ -207,14 +250,15 @@
         </div>
         <div class="footer_email_input">
           <p class="footer_subtitle">Subscribe to our news</p>
-          <div class="email_div">
+          <form class="email_div">
             <input
+              required
               class="email_input"
               type="email"
               placeholder="Enter your email"
             />
             <button class="submit_btn" type="submit">Submit</button>
-          </div>
+          </form>
           <p class="footer_copyright">
             Designed by Alisa Samborskaya <br />
             ©RSSchool & ©Yem Digital 2021
@@ -223,4 +267,5 @@
       </div>
     </footer>
   </body>
+  <script src="./script.js"></script>
 </html>
