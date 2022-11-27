@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="./donate_res.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -17,10 +19,11 @@
       <div class="header container">
         <div class="header-top">
           <a class="logo" href="../index.html">
-            <h1>PetStory Online</h1>
+            <h1 class="tablet_hidden">PetStory Online</h1>
+            <p class="dektop_hidden tablet_block logo_p">PetStory online</p>
             <img class="logo_img" src="../assets/images/bamboo.svg" alt="" />
           </a>
-          <nav>
+          <nav class="tablet_hidden">
             <ul>
               <li><a href="../index.html">About</a></li>
               <li><a href="">Map</a></li>
@@ -29,11 +32,14 @@
               <li><a href="">Contact us</a></li>
             </ul>
             <a
-              class="header_link"
+              class="header_link donate_header_link"
               href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"
               >Designed by ©</a
             >
           </nav>
+          <div class="dektop_hidden tablet_block burger_menu"> 
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
       </div>
     </header>
@@ -60,7 +66,7 @@
           help us sustain our mission.
         </p>
         <h3 class="subtitle">Donation Information</h3>
-        <div class="pick_section">
+        <div class="pick_section donate_pick_section">
           <p class="pick_section_title">Pick and feed a friend</p>
           <p class="pick_section_subtitle">
             We know the animals bring you joy, and in these extraordinary times,
@@ -84,7 +90,7 @@
           <div class="amount_div">
             <p class="amount_text">Amount</p>
             <div class="wrapper">
-              <div class="item">
+              <div class="item small_desktop_hidden">
                 <div class="dot">
                   <input type="radio" name="dot" id="e1" />
                   <div class="circles">
@@ -95,8 +101,8 @@
                   </p>
                 </div>
               </div>
-              <div class="line"></div>
-              <div class="item">
+              <div class="line small_desktop_hidden"></div>
+              <div class="item tablet_hidden">
                 <div class="dot">
                   <input type="radio" name="dot" id="e2" />
                   <div class="circles">
@@ -107,8 +113,8 @@
                   </p>
                 </div>
               </div>
-              <div class="line"></div>
-              <div class="item">
+              <div class="line tablet_hidden"></div>
+              <div class="item tablet_hidden">
                 <div class="dot">
                   <input type="radio" checked name="dot" id="e3" />
                   <div class="circles">
@@ -120,7 +126,7 @@
                   </p>
                 </div>
               </div>
-              <div class="line"></div>
+              <div class="line tablet_hidden"></div>
               <div class="item">
                 <div class="dot">
                   <input type="radio" name="dot" id="e8" />
@@ -132,6 +138,7 @@
                   </p>
                 </div>
               </div>
+              
               <div class="line"></div>
               <div class="item">
                 <div class="dot">
@@ -147,11 +154,11 @@
               <div class="line"></div>
               <div class="item">
                 <div class="dot">
-                  <input type="radio" name="dot" id="e5" />
+                  <input type="radio" checked name="dot" id="e5" />
                   <div class="circles">
                     <div class="circle2"><div class="circle1"></div></div>
                   </div>
-                  <p class="price price5">
+                  <p class="price price5 active">
                     <i class="fa-solid fa-dollar-sign"></i> 100
                   </p>
                 </div>
@@ -207,7 +214,7 @@
       <div class="footer container">
         <div class="footer_social_medias">
           <a class="logo footer_logo" href="../index.html">
-            <h1>PetStory Online</h1>
+            <p>PetStory Online</p>
             <img class="logo_img" src="../assets/images/bamboo.svg" alt="" />
           </a>
           <button class="orange_btn">
@@ -218,25 +225,25 @@
               <div class="footer_img_box">
                 <img src="../assets/images/Fill 211.png" alt="facebook icon" />
               </div>
-              <p><a href="https://www.facebook.com">Facebook</a></p>
+              <p class="tablet_hidden"><a href="https://www.facebook.com">Facebook</a></p>
             </div>
             <div class="social_media">
               <div class="footer_img_box">
                 <img src="../assets/images/Fill 172.png" alt="facebook icon" />
               </div>
-              <p><a href="https://www.twitter.com">Twitter</a></p>
+              <p class="tablet_hidden"><a href="https://www.twitter.com">Twitter</a></p>
             </div>
             <div class="social_media">
               <div class="footer_img_box">
                 <img src="../assets/images/Fill 166.png" alt="facebook icon" />
               </div>
-              <p><a href="https://www.instagram.com">Instagram</a></p>
+              <p class="tablet_hidden"><a href="https://www.instagram.com">Instagram</a></p>
             </div>
             <div class="social_media">
               <div class="footer_img_box">
                 <img src="../assets/images/Fill 213.png" alt="facebook icon" />
               </div>
-              <p><a href="https://www.YouTube.com">YouTube</a></p>
+              <p class="tablet_hidden"><a href="https://www.YouTube.com">YouTube</a></p>
             </div>
           </div>
         </div>
@@ -249,8 +256,8 @@
           </ul>
         </div>
         <div class="footer_email_input">
-          <p class="footer_subtitle">Subscribe to our news</p>
-          <form class="email_div">
+          <p class="footer_subtitle tablet_hidden">Subscribe to our news</p>
+          <form class="email_div tablet_hidden">
             <input
               required
               class="email_input"

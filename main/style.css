@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 * {
    box-sizing: border-box;
    padding: 0;
    margin: 0;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Inter', sans-serif;
 }
 
 html{
    scroll-behavior: smooth;
+}
+
+.dektop_hidden{
+   display: none;
 }
 
 header {
@@ -38,21 +44,19 @@ header {
 
 .logo {
    position: relative;
-   margin-left: 5px;
-   margin-top: 2px;
-   padding: 3px 2px;
+   padding: 5px;
    text-align: center;
-   font-size: 8px !important;
-   font-weight: lighter !important;
-   /* line-height: 120%; */
+   font-size: 8px !important; 
    border: 1.18841px solid #FFFFFF;
 }
 
-.footer_logo{
-   border: none;
-   text-align: start;
-   margin-left: 0px;
-   margin-top: 0px;
+.footer_logo{ 
+   font-size: 1.2rem !important;
+   width: 5.2rem;
+   height: 3.2rem;
+   color: #FFFFFF;
+   text-decoration: none;
+   text-align: center !important; 
 }
 
 nav{
@@ -108,6 +112,7 @@ header a:hover{
    background-image: url(../assets/images/Ellipse\ 6.png);
    background-repeat: no-repeat;
    background-size: contain;
+   
 }
 
 .promo_title {
@@ -184,7 +189,7 @@ header a:hover{
 .backstage_subtitle {
    font-weight: 400;
    font-size: 1.5rem;
-   line-height: 120%;
+   line-height: 114%;
    margin-top: 3.5rem;
    margin-bottom: 2.2rem;
 }
@@ -208,8 +213,7 @@ header a:hover{
 }
 
 .cards {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+   display: flex; 
    gap: 1.4rem 2.2rem;
 }
 
@@ -320,7 +324,6 @@ header a:hover{
    color: #333B41;
    letter-spacing: 0.1px;
    text-align: start;
-
 }
 
 .donate_link {
@@ -568,6 +571,10 @@ footer {
 
 .footer_email_input{
    margin-left: 2.25rem;
+}
+
+.email_div{
+   display: flex;
 }
 
 .footer_subtitle {
