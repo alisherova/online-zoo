@@ -1,8 +1,7 @@
 @media screen and (max-width: 1001px) {
   .small_desktop_hidden {
     display: none;
-  }
-
+  } 
   nav ul {
     gap: 2.9rem;
   }
@@ -134,7 +133,7 @@
 
   .footer_email_input {
     margin-left: 0rem;
-    transform: translateX(35.5%);
+    transform: translateX(35%);
     margin-top: -0.3rem;
   }
 
@@ -162,10 +161,16 @@
   .footer .orange_btn {
     float: none;
     border-radius: 5px;
-    margin-top: 4rem;
+    margin-top: 3.8rem;
     margin-bottom: 2.8rem;
     margin-left: 4px;
     margin-right: 6.5rem;
+  }
+
+  .footer_copyright{
+    top: 2%;
+    position: relative;
+    left: 22%;
   }
 }
 
@@ -173,6 +178,9 @@
 
   .tablet_panda_bg{
     margin-top: 2.1rem;
+  }
+  main{
+    padding-top: 0;
   }
   .wrapper {
     width: 600px;
@@ -212,6 +220,11 @@
 
   header {
      width: 100%;
+  }
+
+  .footer{
+    padding-top: 0.8rem !important;
+    padding-bottom: 0rem;
   }
 
   .footer_logo p {
@@ -335,16 +348,26 @@
     font-size: 1.2rem;
   }
 
+  .footer_email_input {
+    margin-left: 0rem;
+    transform: translateX(0%);
+    margin-top: -0.3rem;
+}
+
   .footer_nav ul {
-    top: 84%;
+    top: 91%;
     left: 24.9%;
     gap: 2.3rem;
     transform: translateX(-50%);
   }
 
   .footer_copyright {
-    line-height: 190%;
-    transform: translateX(-40%) translateY(45%);
+    line-height: 200%;
+    transform: translateX(0%) translateY(0%);
+    padding-top: 1.5rem;
+    padding-left: 0.6rem;
+    letter-spacing: 0.2px;
+    left: 0%;
   }
 }
 
@@ -394,6 +417,10 @@
   font-size: 24px;
   margin-right: 0rem !important;
   margin-left: 0rem;
+}
+
+.pick_section .orange_btn {
+  margin-right: 0rem;
 }
 
   .title {
@@ -463,7 +490,7 @@
 
 .dollarSign { 
   right: 23%;
-  top: 57%;
+  top: 61%;
   transform: translateX(0%) translateY(0%) !important; 
 }
 
@@ -486,7 +513,7 @@
 }
 
 .footer { 
-  padding-top: 1.5rem; 
+  padding-top: 1.5rem !important; 
 }
 
 .footer .logo {
@@ -506,15 +533,17 @@
 .footer .orange_btn {
   margin-top: 0.8rem;
   margin-left: 0rem !important; 
+  margin-bottom: 1.7rem;
 }
 
 .footer_copyright {
   line-height: 216%;
-  transform: translateX(-40%) translateY(-27%);
+  transform: translateX(0%) translateY(0%);
+  padding-top: 1.3rem;
 }
 
 .footer_nav ul {
-  top: 88%;
+  top: 102%;
   left: 49.9%;
   gap: 0rem;
   transform: translateX(-50%);

@@ -571,12 +571,9 @@ footer {
 .footer_nav ul li:hover a{
    color:#E47209;
 }
+ 
 
-.footer_email_input{
-   margin-left: 2.25rem;
-}
-
-.email_div{
+.email_div{ 
    display: flex;
 }
 
@@ -629,5 +626,7 @@ footer {
    line-height: 170%;
    color: rgba(220, 220, 220, 0.615);
    align-content: flex-end;
-   transform: translateX(37%) translateY(385%);
+   position: relative;
+   top: 60%;
+   left: 36%; 
 }
