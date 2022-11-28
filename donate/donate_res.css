@@ -124,10 +124,13 @@
     font-size: 8px !important;
   }
 
-  .footer_logo {
-    font-size: 18px !important;
+  .footer_logo { 
     padding: 0.1rem 0 0.3rem 0 !important;
   }
+
+  .footer_logo p {
+    font-size: 1.15rem !important;
+}
 
   .footer_email_input {
     margin-left: 0rem;
@@ -166,7 +169,11 @@
   }
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 641px) { 
+
+  .tablet_panda_bg{
+    margin-top: 2.1rem;
+  }
   .wrapper {
     width: 600px;
     margin-right: 0;
@@ -207,10 +214,14 @@
      width: 100%;
   }
 
+  .footer_logo p {
+    font-size: 1.2rem !important;
+}
+
   .fourth_section {
-    max-width: 600px;
-    margin-top: 0.4rem;
+    max-width: 600px; 
     padding-bottom: 2.85rem;
+    margin-top: 0.65rem;
   }
 
   .title {
@@ -340,21 +351,50 @@
 @media screen and (max-width: 321px) {
   .wrapper {
     width: 300px;
+    padding: 5px 18px 10px 17px;
+  }
+
+  .dot {
+    height: 5px;
+    width: 5px; 
+}
+
+.price { 
+  font-size: 13px;
+}
+
+.fa-dollar-sign {
+  font-size: 11px;
+  transform: translateY(18%);
+}
+
+  .mobile_panda_bg{
+    margin-top: 2.15rem;
   }
 
   .fourth_section {
     max-width: 300px;
+    margin-top: 0.7rem;
+    padding-bottom: 1.2rem;
   }
 
   .subtitle {
     letter-spacing: 0.2px;
     font-size: 24px;
     padding-right: 0rem !important;
+    margin-bottom: 1.6rem;
   }
 
-  .panda_img {
-    height: 221px; 
-  }
+  .donate_pick_section {
+    padding-top: 0.5rem;
+    padding-bottom: 1.3rem !important;
+}
+
+.pick_section_title {
+  font-size: 24px;
+  margin-right: 0rem !important;
+  margin-left: 0rem;
+}
 
   .title {
    line-height: 121%; 
@@ -366,4 +406,117 @@
     letter-spacing: 0.09px;
     margin-bottom: 1.9rem;
   }
+
+  .pick_section_subtitle {
+    font-size: 1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding: 0px 0rem; 
+    letter-spacing: -0.1px;
+}
+
+.howItWork_card {
+  margin-top: 0.7rem; 
+}
+
+.howItWork_card_img_box {
+  margin-bottom: 0rem;
+  margin-right: 0;
+}
+
+.pandaimg{
+  width: 53%;
+}
+.four_img{
+  width: 49%;
+  margin-top: 2.1rem;
+  margin-right: 0.6rem;
+  margin-left: 0;
+}
+
+.x_symbol {
+  margin-left: 0;
+  margin-right: 2.1rem;
+    margin-top: 1.2rem;
+  font-size: 12px;
+}
+
+.howItWork_card_pr {
+  font-size: 10px; 
+  margin-top: 0.1rem;
+}
+
+.amount_div {
+  margin-top: 0.7rem; 
+}
+
+.amount_text { 
+  margin-left: 0rem;
+}
+
+.amount_input_div {
+  position: relative;
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.dollarSign { 
+  right: 23%;
+  top: 57%;
+  transform: translateX(0%) translateY(0%) !important; 
+}
+
+.radio_inputs {
+  gap: 3.2rem;
+  margin-top: 1.7rem;
+  margin-right: 1.3rem;
+}
+
+.donate_pick_section .orange_btn {
+  margin-left: 0.1rem;
+  margin-top: 1.8rem;
+}
+
+.share_text {
+  font-size: 15px; 
+  margin-left: 0rem;
+  text-align: start;
+  letter-spacing: 0.45px;
+}
+
+.footer { 
+  padding-top: 1.5rem; 
+}
+
+.footer .logo {
+  width: 100%; 
+}
+
+.footer_logo p {
+  font-size: 1.1rem !important;
+  letter-spacing: 0.3px;
+}
+
+.social_medias {  
+  margin-top: 2.7rem;
+  margin-left: 3.2rem;
+}
+
+.footer .orange_btn {
+  margin-top: 0.8rem;
+  margin-left: 0rem !important; 
+}
+
+.footer_copyright {
+  line-height: 216%;
+  transform: translateX(-40%) translateY(-27%);
+}
+
+.footer_nav ul {
+  top: 88%;
+  left: 49.9%;
+  gap: 0rem;
+  transform: translateX(-50%);
+}
 }

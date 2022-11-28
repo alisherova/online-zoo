@@ -97,7 +97,8 @@
   }
 
   .third_section {
-    background-size: 21% 21%;
+    background-image: url(../assets/images/strelitzia\ 1.png), url(../assets/images/small_desktop_palm.png);
+    background-size: 24% 17%, 19%;
     margin-top: 4.8rem;
     padding-bottom: 9rem;
   }
@@ -130,7 +131,7 @@
 
   .pick_section {
     max-width: 94%;
-    padding: 1.8rem 2rem 3rem 3.1rem;
+    padding: 1.9rem 2rem 3rem 3.1rem;
   }
 
   .pick_section_title {
@@ -141,20 +142,20 @@
   .pick_section_subtitle {
     letter-spacing: -0.9px;
     margin-top: 1.4rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.2rem;
   }
 
   .pick_section_text {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
     font-size: 0.86rem;
     line-height: 140%;
-    letter-spacing: 0.56px;
+    letter-spacing: -0.18px;
     padding-right: 3rem;
   }
 
-  .supprtText {
+  /* .supprtText {
     letter-spacing: 0.47px;
-  }
+  } */
   .howItWorkTitle {
     letter-spacing: -1.6px;
     margin-top: 2.5rem;
@@ -177,13 +178,16 @@
 
   .testimonals_card {
     width: 20rem;
+    padding: 0.6rem 1rem;
   }
 
   .fifth_section {
-    background-size: 22.5%;
+    background-position: top 116.2% left 100%;
+    background-size: 19.5%;
     padding: 6.3rem 0;
-    padding-bottom: 8.8rem;
-  }
+    padding-bottom: 8.6rem;
+}
+  
 
   .testimonals_title {
     font-size: 2.3rem;
@@ -346,10 +350,11 @@
   }
 
   .third_section {
-    background-size: 29% 13.5%, 21% 20.5%;
+    background-image: url(../assets/images/strelitzia\ 1.png), url(../assets/images/palm_foto.png);
+    background-size: 28% 13.5%, 22% 20.5%;
     margin-top: 3.45rem;
     padding-bottom: 6.2rem;
-  }
+}
 
   .card_content_title {
     font-weight: 500;

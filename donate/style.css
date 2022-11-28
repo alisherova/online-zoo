@@ -62,6 +62,10 @@ header {
    padding: 5px;
 }
 
+.footer_logo p{
+   font-size: 1rem !important;
+}
+
 nav{
    display: flex;
    justify-content: space-between;

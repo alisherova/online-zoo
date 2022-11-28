@@ -38,25 +38,28 @@ header {
 
 .logo_img{
    position: absolute;
-   left: 7%;
+   left: 12%;
    top: 40%;
 }
 
 .logo {
    position: relative;
-   padding: 5px;
+   padding: 3px 2px;
    text-align: center;
    font-size: 8px !important; 
    border: 1.18841px solid #FFFFFF;
 }
 
-.footer_logo{ 
-   font-size: 1.2rem !important;
+.footer_logo{  
    width: 5.2rem;
    height: 3.2rem;
    color: #FFFFFF;
    text-decoration: none;
    text-align: center !important; 
+}
+
+.footer_logo_p{
+   font-size: 1rem !important;
 }
 
 nav{
