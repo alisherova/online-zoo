@@ -172,6 +172,10 @@
     position: relative;
     left: 22%;
   }
+
+  main{
+    padding-top: 5rem;
+  }
 }
 
 @media screen and (max-width: 641px) { 
