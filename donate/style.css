@@ -447,9 +447,10 @@ input[type="number"]::placeholder {
 input[type="number"]:active::placeholder {
   color: #4b9200 !important;
 }
+ 
 
 .dollarSign {
-  position: fixed;
+  position: absolute;
   right: 40%;
   top: 71%;
   color: #929699;

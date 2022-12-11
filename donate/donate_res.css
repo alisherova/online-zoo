@@ -35,7 +35,7 @@
   }
 
   .donate_header_link {
-    margin: 0 !important;
+    margin: 0 ;
   }
 
   .title {
@@ -77,6 +77,11 @@
     margin-top: 3.1rem;
     margin-right: 0rem;
     margin-left: 1rem;
+  }
+
+  .amount_error_msg{ 
+    font-size: 12px;
+    color: crimson;
   }
 
   .lastItem {
@@ -220,6 +225,11 @@
 
   .amount_div {
     margin-left: 0;
+  }
+
+  .amount_error_msg{ 
+    font-size: 10px; 
+    color: crimson;
   }
 
   header {

@@ -15,15 +15,16 @@
   </head>
 
   <body>
+    <div class="main_div"  onclick="open_close_bar()"></div>
     <header>
       <div class="header container">
         <div class="header-top">
-          <a class="logo" href="../index.html">
+          <a class="logo  header_logo" href="../index.html">
             <h1 class="tablet_hidden">PetStory Online</h1>
             <p class="dektop_hidden tablet_block logo_p">PetStory online</p>
             <img class="logo_img" src="../assets/images/bamboo.svg" alt="" />
           </a>
-          <nav class=" tablet_hidden">
+          <nav class="tablet_hidden">
             <ul>
               <li><a href="../index.html">About</a></li>
               <li><a href="">Map</a></li>
@@ -38,24 +39,13 @@
             >
           </nav>
           <div class="dektop_hidden tablet_block burger_menu"> 
-            <i class="fa-solid fa-bars"></i>
+            <i onclick="open_close_bar()" class="fa-solid fa-bars"></i>
           </div>
         </div>
       </div>
-      <!-- <div class="bar_menu">
-        <ul>
-          <li><a href="../index.html">About</a></li>
-          <li><a href="">Map</a></li>
-          <li><a href="">Zoos</a></li>
-          <li><a class="active" href="./index.html">Donate</a></li>
-          <li><a href="">Contact us</a></li>
-        </ul>
-        <a
-              class="header_link donate_header_link"
-              href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"
-              >Designed by ©</a
-            >
-      </div> -->
+      <div class=" close_burger_menu dektop_hidden">
+        <i onclick="open_close_bar()" class="fa-solid fa-xmark"></i>
+      </div>
     </header>
     <main>
       <section>
@@ -133,11 +123,11 @@
               <div class="line tablet_hidden"></div>
               <div class="item tablet_hidden">
                 <div class="dot">
-                  <input type="radio" checked name="dot" id="e3" />
+                  <input type="radio" name="dot" id="e3" />
                   <div class="circles">
                     <div class="circle2"><div class="circle1"></div></div>
                   </div>
-                  <p class="price price3 active">
+                  <p class="price price3">
                     <i class="fa-solid fa-dollar-sign"></i>
                     1000
                   </p>
@@ -154,8 +144,7 @@
                     <i class="fa-solid fa-dollar-sign"></i> 500
                   </p>
                 </div>
-              </div>
-              
+              </div> 
               <div class="line"></div>
               <div class="item">
                 <div class="dot">
@@ -207,9 +196,10 @@
             </div>
           </div>
           <div class="amount_input_div">
-            <input type="number" placeholder="Another amount" />
+            <input value="100" class="amount_input" type="number" placeholder="Another amount" />
             <i class="fa-sharp fa-solid fa-dollar-sign dollarSign"></i>
           </div>
+          <p class="amount_error_msg"></p>
           <div class="radio_inputs">
             <div class="radio_div">
               <input type="radio" id="month" name="radios" />
@@ -291,5 +281,5 @@
       </div>
     </footer>
   </body>
-  <script src="./script.js"></script>
+  <script src="./main.js"></script> 
 </html>

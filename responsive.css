@@ -118,12 +118,18 @@
     margin-top: 5.8rem;
   }
 
+  .cards{
+    gap: 7rem 0px !important;
+  }
+
   .left_arrow {
+    width: 4rem;
     position: absolute;
     top: 46%;
     left: 35.3%;
   }
   .right_arrow {
+    width: 4rem;
     position: absolute;
     top: 46%;
     right: 35.3%;
@@ -157,10 +163,7 @@
     letter-spacing: -0.18px;
     padding-right: 3rem;
   }
-
-  /* .supprtText {
-    letter-spacing: 0.47px;
-  } */
+ 
   .howItWorkTitle {
     letter-spacing: -1.6px;
     margin-top: 2.5rem;
@@ -182,9 +185,11 @@
   }
 
   .testimonals_card {
-    width: 20rem;
+    min-width: 31%;
     padding: 0.6rem 1rem;
   }
+
+ 
 
   .fifth_section {
     background-position: top 116.2% left 100%;
@@ -269,40 +274,62 @@
     display: none;
   }
   .tablet_block {
-    display: block;
+    display: block !important;
+  }
+
+  .dimmed_area{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99
+  }
+
+  .header_link{
+    margin-top: 1rem;
   }
 
   .header {
-    padding: 0;
+    padding: 0; 
   }
- 
-  nav{
-    width: 100%; 
-    /* top: 100%; */
-    position: relative;
-    z-index: 99999999 !important;
+
+  .header_abs{
+    width: 100%;  
     background: #fff; 
+    position: fixed !important; 
+    overflow: hidden;
+    z-index: 999999;
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 0.4rem 0.6rem 0;
   } 
+
+  .header-top_abs{
+    grid-template-columns: 1fr !important;
+    gap: 1.65rem !important;
+    padding: 0.36rem 2rem 0rem 0;
+  }
+
+  .donate_header_link{
+    margin-top: 1rem !important;
+  }
+
+.close_burger_menu{
+  padding-right: 0.6rem;
+  padding-top: 0.4rem;
+}
+
+  nav{
+    flex-direction: column;
+  }
   
   nav ul {
-    gap: 0.5rem !important;
-    position: absolute;
     flex-direction: column;
-    height: 100%;
+    gap: 1.2rem !important;
   }
 
-
-  /* .bar_menu{
-    width: 100%; 
-    top: 100%;
-    padding: 1rem;
-    background: #fff; 
-    position: absolute;
-    flex-direction: column;
-    gap: 0.5rem !important;
-  }  */
-
-  header a {
+  .header_abs a {
     color: #363636; 
  }
 
@@ -314,10 +341,23 @@
     padding: 0 !important;
   }
 
+  .barmenu_logo{
+    width: 4rem!important;
+    border: 1.18841px solid orange !important;
+    padding: 2px 4px !important;
+    color: orange;
+  }
+
+  .barmenu_logo .logo_p {
+    font-size: 0.9rem;
+  }
+
   .logo_p {
     font-size: 0.8rem;
     padding-bottom: 0.13rem;
   }
+
+
 
   .second_section {
     background-image: url(../assets/images/flower_foto1.png);
@@ -393,6 +433,10 @@
     font-size: 0.7rem;
     padding-top: 0rem;
     letter-spacing: 0px;
+  }
+
+  .card{
+    max-width: 48% !important;
   }
 
   .card_content {
@@ -476,11 +520,16 @@
     padding: 3.75rem 0;
     padding-bottom: 5rem;
   }
+
+  .testimonals {
+    overflow: visible;
+}
   
   .testimonals_cards {
     margin-right: 0.2rem;
     flex-direction: column;
     gap: 0.9rem;
+    /* overflow: hidden; */
   }
 
   .testimonals_card {
@@ -488,6 +537,28 @@
     height: 6.85rem;
     padding: 0.7rem;
     padding-bottom: 2rem; 
+    cursor: pointer;
+  }
+
+  
+  .review_popup{
+    width: 17rem !important;
+    height: 24.3rem !important;
+    position: absolute;
+    left: 30%;
+    z-index: 99999;
+  }
+
+  .review_popup_x{ 
+    /* display: block; */
+    float: right;
+    position: absolute;
+    top: 3%;
+    right: 6%;
+  }
+
+  .review_popup .testimonial_text{
+    height: auto !important;
   }
 
   .testimonial_text {
@@ -504,7 +575,7 @@
     margin-top: 2.46rem !important;
     margin-left: 11.3rem !important;
   }
-
+ 
   footer {
     height: 282px;
   }
@@ -585,7 +656,7 @@
 
 @media screen and (max-width: 321px) {
   .mobile_hidden {
-    display: none;
+    display: none !important;
   }
   .mobile_block {
     display: block;
@@ -646,6 +717,8 @@
     margin-top: 2.3rem;
   }
 
+  
+
   .backstage_title {
     letter-spacing: -0.8px;
     transform: translateY(-3%) translateX(-1%);
@@ -689,11 +762,11 @@
 
   .cards {
     flex-wrap: wrap;
-    gap: 1.4rem 2.2rem;
+    gap: 1.4rem 2.2rem !important;
  }
 
   .card {
-    max-width: 285px;
+    max-width: 285px !important;
     border: 1px solid #FE9013;
     border-radius: 5px; 
     padding-bottom: 9.3px;
@@ -801,6 +874,14 @@
  font-size: 13px;
 }
 
+.review_popup {
+  width: 13rem !important;
+  height: 20.3rem !important;
+  position: absolute;
+  left: 15%;
+  z-index: 99999;
+  overflow: auto;
+}
 
 .testimonals_card {
   padding: 0.7rem;
