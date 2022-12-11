@@ -1,0 +1,974 @@
+@media screen and (max-width: 1001px) {
+  .hidden {
+    display: none;
+  }
+
+  .container {
+    max-width: 94%;
+  }
+
+  .header {
+    padding: 1rem 0;
+    position: relative;
+    overflow: hidden !important;
+    z-index: 999;
+  }
+
+  nav ul {
+    gap: 2.7rem;
+  }
+
+  nav ul li:nth-child(3) a {
+    margin-left: 5px;
+    margin-right: 2px;
+  }
+  nav ul li:nth-child(5) a {
+    margin-left: 2px;
+    letter-spacing: -0.5px;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+  }
+
+  .header_link {
+    letter-spacing: -0.6px;
+  }
+
+  .firstSection {
+    padding: 5rem 0 8.2rem 0;
+  }
+
+  .promo_btn {
+    margin-top: 1.8rem;
+    margin-right: 6.8rem;
+  }
+
+  .second_section {
+    background-image: none;
+    padding: 6rem 0;
+  }
+
+  .bambooCapImg {
+    width: 455px;
+    height: 408px;
+  }
+
+  .backstage_section {
+    gap: 1.9rem;
+  }
+
+  .promo {
+    max-width: 32rem;
+    padding: 0rem;
+    transform: translateY(-3%);
+    overflow: visible !important;
+    z-index: 99;
+  }
+
+  .promo_title {
+    width: 100%;
+    font-size: 85px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    padding-top: 3.3rem;
+    font-family: "Inter", sans-serif;
+    padding-left: 0.1rem;
+  }
+
+  .backstage_text {
+    letter-spacing: -0.5px;
+    line-height: 130%;
+  }
+
+  .backstage_subtitle {
+    letter-spacing: -0.6px;
+  }
+
+  .backstage_subtitle_text {
+    line-height: 136%;
+    letter-spacing: -0.4px;
+  }
+
+  .second_section {
+    padding: 4.1rem 0;
+  }
+
+  .backstage_title {
+    letter-spacing: -1.6px;
+    margin-bottom: 0.7rem;
+    transform: translateY(-9%);
+  }
+
+  .third_section {
+    background-image: url(../assets/images/strelitzia\ 1.png), url(../assets/images/small_desktop_palm.png);
+    background-size: 24% 17%, 19%;
+    margin-top: 4.8rem;
+    padding-bottom: 9rem;
+  }
+
+  .cards_section {
+    position: relative;
+    flex-direction: column;
+    padding: 0 1.8rem;
+  }
+
+  .secondRowCards {
+    margin-top: 5.8rem;
+  }
+
+  .cards{
+    gap: 7rem 0px !important;
+  }
+
+  .left_arrow {
+    width: 4rem;
+    position: absolute;
+    top: 46%;
+    left: 35.3%;
+  }
+  .right_arrow {
+    width: 4rem;
+    position: absolute;
+    top: 46%;
+    right: 35.3%;
+  }
+
+  .fourth_section {
+    padding-top: 1.7rem;
+    padding-bottom: 3.2rem;
+  }
+
+  .pick_section {
+    max-width: 94%;
+    padding: 1.9rem 2rem 3rem 3.1rem;
+  }
+
+  .pick_section_title {
+    letter-spacing: -1.4px;
+    margin-right: 1rem;
+  }
+
+  .pick_section_subtitle {
+    letter-spacing: -0.9px;
+    margin-top: 1.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .pick_section_text {
+    margin-bottom: 0.5rem;
+    font-size: 0.86rem;
+    line-height: 140%;
+    letter-spacing: -0.18px;
+    padding-right: 3rem;
+  }
+ 
+  .howItWorkTitle {
+    letter-spacing: -1.6px;
+    margin-top: 2.5rem;
+    margin-right: 1.3rem;
+  }
+
+  .howItWorks_cards {
+    margin-right: 0rem;
+  }
+
+  .howItWork_card_pr {
+    letter-spacing: -0.6px;
+    line-height: 130%;
+  }
+
+  .pick_section_btn {
+    margin-top: 4.6rem !important;
+    margin-right: 1.2rem !important;
+  }
+
+  .testimonals_card {
+    min-width: 31%;
+    padding: 0.6rem 1rem;
+  }
+
+ 
+
+  .fifth_section {
+    background-position: top 116.2% left 100%;
+    background-size: 19.5%;
+    padding: 6.3rem 0;
+    padding-bottom: 8.6rem;
+}
+  
+
+  .testimonals_title {
+    font-size: 2.3rem;
+    letter-spacing: -0.7px;
+    margin-bottom: 1.8rem;
+  }
+
+  input[type="range"] {
+    width: 24.3rem;
+    margin-top: 1.4rem;
+    margin-right: 0.8rem;
+  }
+
+  .testimonial_btn {
+    margin-top: 3.2rem !important;
+  }
+
+  .footer {
+    position: relative;
+    padding-top: 2.8rem;
+  }
+
+  .footer_nav ul {
+    height: auto;
+    top: 82%;
+    left: 48.9%;
+    position: absolute;
+    gap: 3rem;
+    transform: translateX(-50%);
+  }
+
+  .footer_email_input {
+    margin-left: 0rem;
+    transform: translateX(36%);
+  }
+
+  .email_div {
+    margin-right: 1.3rem;
+  }
+
+  .footer_subtitle {
+    margin-bottom: 0.7rem;
+    letter-spacing: -0.8px;
+  }
+
+  .email_input {
+    padding: 0.7rem;
+    padding-right: 2rem;
+  }
+
+  .submit_btn {
+    font-size: 1rem;
+    padding: 0.6rem 2.3rem;
+    color: green;
+    border-color: green;
+  }
+
+  .footer_copyright {
+    width: 15rem;
+    font-size: 15px;
+    line-height: 180%;
+    top: 61%;
+    left: 42%;
+  }
+
+  .footer_logo {
+    padding: 0 !important;
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .tablet_hidden {
+    display: none;
+  }
+  .tablet_block {
+    display: block !important;
+  }
+
+  .dimmed_area{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99
+  }
+
+  .header_link{
+    margin-top: 1rem;
+  }
+
+  .header {
+    padding: 0; 
+  }
+
+  .header_abs{
+    width: 100%;  
+    background: #fff; 
+    position: fixed !important; 
+    overflow: hidden;
+    z-index: 999999;
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 0.4rem 0.6rem 0;
+  } 
+
+  .header-top_abs{
+    grid-template-columns: 1fr !important;
+    gap: 1.65rem !important;
+    padding: 0.36rem 2rem 0rem 0;
+  }
+
+  .donate_header_link{
+    margin-top: 1rem !important;
+  }
+
+.close_burger_menu{
+  padding-right: 0.6rem;
+  padding-top: 0.4rem;
+}
+
+  nav{
+    flex-direction: column;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    gap: 1.2rem !important;
+  }
+
+  .header_abs a {
+    color: #363636; 
+ }
+
+  .firstSection {
+    margin-top: 2.1rem;
+  }
+
+  .logo {
+    padding: 0 !important;
+  }
+
+  .barmenu_logo{
+    width: 4rem!important;
+    border: 1.18841px solid orange !important;
+    padding: 2px 4px !important;
+    color: orange;
+  }
+
+  .barmenu_logo .logo_p {
+    font-size: 0.9rem;
+  }
+
+  .logo_p {
+    font-size: 0.8rem;
+    padding-bottom: 0.13rem;
+  }
+
+
+
+  .second_section {
+    background-image: url(../assets/images/flower_foto1.png);
+    background-size: 20% 100%;
+    padding: 1.55rem 0.2rem;
+  }
+
+  .backstage_content {
+    width: 82%;
+  }
+
+  .logo {
+    border: none;
+  }
+
+  .logo_img {
+    width: 6.5px;
+    left: 9%;
+    top: 47%;
+  }
+
+  .promo_title {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    line-height: 83%;
+    padding-left: 2.6rem;
+    padding-top: 2.1rem;
+  }
+
+  .burger_menu {
+    margin-left: auto;
+  }
+
+  .firstSection {
+    padding: 0.7rem 0 5.45rem 0;
+  }
+
+  .promo {
+    max-width: 18.2rem;
+    padding: 0rem;
+    transform: translateY(0);
+    overflow: visible !important;
+    z-index: 99;
+    background-size: 82%;
+  }
+
+  .promo_btn {
+    float: left;
+    margin-top: 0rem;
+    transform: translateY(-13.5%) !important;
+    margin-left: 0.1rem;
+  }
+
+  .backstage_subtitle {
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+  }
+  .cards_section {
+    padding: 0 1.15rem;
+    margin-bottom: 3.84rem;
+  }
+
+  .third_section {
+    background-image: url(../assets/images/strelitzia\ 1.png), url(../assets/images/palm_foto.png);
+    background-size: 28% 13.5%, 22% 20.5%;
+    margin-top: 3.45rem;
+    padding-bottom: 6.2rem;
+}
+
+  .card_content_title {
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding-top: 0rem;
+    letter-spacing: 0px;
+  }
+
+  .card{
+    max-width: 48% !important;
+  }
+
+  .card_content {
+    padding: 0 0rem 0rem 0.6rem;
+  }
+
+  .left_arrow {
+    top: 45.4%;
+    left: 37.9%;
+  }
+  .right_arrow {
+    top: 45.4%;
+    right: 37.9%;
+  }
+
+  .card_content_subtitle {
+    font-size: 0.65rem;
+  }
+
+  .fourth_section {
+    padding-top: 1.21rem;
+    padding-bottom: 1.25rem;
+  }
+  .pick_section {
+    max-width: 100%;
+    padding: 0.6rem 1rem 3.8rem 1.2rem;
+  }
+
+  .pick_section_title {
+    font-size: 2.64rem;
+    margin-right: 0rem;
+  }
+
+  .pick_section_subtitle {
+    font-size: 1.3rem;
+    letter-spacing: -0.2px;
+    margin-top: 1.4rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .pick_section_text {
+    line-height: 150%;
+    padding-right: 0;
+    margin-bottom: 0.6rem;
+  }
+
+  .supprtText {
+    line-height: 155%;
+    letter-spacing: 0.55px;
+  }
+  .howItWorkTitle {
+    letter-spacing: -1.6px;
+    margin-top: 1.8rem;
+    margin-right: 0.4rem;
+  }
+
+  .howItWorks_cards {
+    margin-top: 1.2rem;
+    gap: 2.5rem;
+  }
+
+  .secondCard {
+    margin-left: 0.2rem;
+  }
+  .thirdCard {
+    margin-left: 0.15rem;
+  }
+  .howItWork_card_pr {
+    letter-spacing: -0.36px;
+    line-height: 130%;
+  }
+
+  .pick_section_btn {
+    margin-top: 2.68rem !important;
+    margin-right: 0.2rem !important;
+  }
+
+  .fifth_section {
+    background-size: 22%;
+    background-position: top 121% left 104%;
+    padding: 3.75rem 0;
+    padding-bottom: 5rem;
+  }
+
+  .testimonals {
+    overflow: visible;
+}
+  
+  .testimonals_cards {
+    margin-right: 0.2rem;
+    flex-direction: column;
+    gap: 0.9rem;
+    /* overflow: hidden; */
+  }
+
+  .testimonals_card {
+    width: 101%;
+    height: 6.85rem;
+    padding: 0.7rem;
+    padding-bottom: 2rem; 
+    cursor: pointer;
+  }
+
+  
+  .review_popup{
+    width: 17rem !important;
+    height: 24.3rem !important;
+    position: absolute;
+    left: 30%;
+    z-index: 99999;
+  }
+
+  .review_popup_x{ 
+    /* display: block; */
+    float: right;
+    position: absolute;
+    top: 3%;
+    right: 6%;
+  }
+
+  .review_popup .testimonial_text{
+    height: auto !important;
+  }
+
+  .testimonial_text {
+    height: 2rem;
+    overflow: hidden;
+  }
+  .testimonals_card_header {
+    display: flex;
+    gap: 0.6rem;
+    margin-bottom: 0.8rem;
+  }
+  .testimonial_btn {
+    width: 15rem;
+    margin-top: 2.46rem !important;
+    margin-left: 11.3rem !important;
+  }
+ 
+  footer {
+    height: 282px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.8rem;
+    padding-bottom: 0rem;
+  }
+
+  .footer .logo {
+    border: 1.18841px solid #ffffff;
+  }
+
+  .footer .orange_btn {
+    margin-top: 5.25rem;
+    margin-bottom: 2.75rem;
+    margin-left: -5.1rem !important;
+    margin-right: 0;
+  }
+
+  .footer_nav ul {
+    top: 91%;
+    left: 25.5%;
+    gap: 2.2rem;
+  }
+
+  .footer_social_medias {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social_medias {
+    margin-left: 17.15rem;
+  }
+
+  .social_media:nth-child(2) {
+    margin: 1.2rem 0;
+  }
+
+  .social_media:nth-child(4) {
+    margin-top: 1.4rem;
+  }
+
+  .footer_email_input {
+    margin-left: 0rem;
+    transform: translateX(0);
+    align-self: flex-end;
+  }
+
+  .footer_copyright {
+    font-size: 15px;
+    line-height: 199%;
+    padding-top: 1.2rem;
+    left: 4%;
+  }
+
+  .footer_logo .logo_img {
+    width: 12px;
+    left: 9%;
+    top: 47%;
+  }
+
+  .first_green_arrow,
+  .second_green_arrow {
+    position: absolute;
+    top: 44.1%;
+  }
+
+  .first_green_arrow {
+    left: 24.5%;
+  }
+  .second_green_arrow {
+    right: 29%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .mobile_hidden {
+    display: none !important;
+  }
+  .mobile_block {
+    display: block;
+  }
+ 
+  header {
+    width: 100%;
+  }
+
+  .promo {
+    max-width: 9.2rem;
+    padding: 0rem;
+    margin-top: 0.7rem;
+  }
+
+  .promo_title {
+    font-size: 27.21px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 79%;
+    padding-left: 1.2rem;
+    padding-top: 1.1rem;
+  }
+
+  .orange_btn{
+    margin-right: 0;
+  }
+
+  .testimonial_btn {
+    width: 15rem;
+    margin-top: 1.8rem !important;
+    margin-left: 1.9rem !important;
+  }
+
+  .promo_btn {
+    margin-top: 4.2rem; 
+    margin-right: 0rem !important;
+    
+  } 
+
+  .firstSection {
+    background-size: 100% 80%;
+  }
+
+  .second_section { 
+    position: relative;
+    background: none;
+    padding: 1.4rem 0.2rem;
+  }
+
+  .mobile_flower{
+    position: absolute;
+    right: 0;
+    top: -2%;
+  }
+
+  .backstage_section {
+    margin-top: 2.3rem;
+  }
+
+  
+
+  .backstage_title {
+    letter-spacing: -0.8px;
+    transform: translateY(-3%) translateX(-1%);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 120%;
+    margin-bottom: 0.35rem;
+  }
+
+  .backstage_content {
+    width: 96%;
+  }
+
+  .backstage_text{
+    margin-top: 0.5rem !important;
+  }
+
+  .backstage_text,
+  .backstage_subtitle {
+    margin-left: -0.1rem !important;
+  }
+
+  .backstage_subtitle_text {
+    margin-left: -0.02rem;
+    line-height: 138%;
+    letter-spacing: -0.56px;
+  }
+
+  .backstage_subtitle {
+    margin-top: 1.4rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .howItWorks_cards {
+    flex-direction: column;
+  }
+
+  .social_medias {
+    margin-left: 0;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    gap: 1.4rem 2.2rem !important;
+ }
+
+  .card {
+    max-width: 285px !important;
+    border: 1px solid #FE9013;
+    border-radius: 5px; 
+    padding-bottom: 9.3px;
+ }
+
+ .card:nth-child(2){
+  margin-top: -0.2rem;
+ }
+
+ .third_section {
+  background-size: 19% 4%, 20% 5%;
+  margin-top: 1rem !important;
+  padding-bottom: 3.71rem;
+}
+
+.secondRowCards {
+  margin-top: 1.1rem;
+}
+
+.cards_section {
+  padding: 0 1.15rem;
+  margin-bottom: 1.1rem;
+}
+
+.pick_section_title {
+  font-size: 24px;
+  letter-spacing: -0.7px; 
+  margin-top: 0.75rem;
+}
+
+.pick_section_subtitle {
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.16px;
+  margin-top: 0.6rem;
+  margin-right: 0.2rem;
+  line-height: 130%;
+}
+
+.howItWorkTitle {
+  font-size: 24px;
+  letter-spacing: -0.7px;
+  margin-top: -0.1rem;
+  margin-right: 0.1rem;
+  margin-bottom: 2.4rem !important;
+}
+
+.first_green_arrow {
+  transform: rotate(84deg) !important;
+  top: 37%;
+  left: 68.7% !important;
+}
+.second_green_arrow {
+  transform: rotate(85deg) !important;
+  top: 60.9%;
+  left: 68.6% !important;
+}
+
+.howItWork_card_img_box{
+  margin-bottom: 0.65rem;
+}
+
+.howItWork_card_pr {
+  letter-spacing: -0.4px;
+  line-height: 134%;
+}
+
+.secondCard {
+  margin-top: 1rem;
+  margin-left: -0.2rem;
+}
+
+.thirdCard {
+  margin-left: 1rem;
+  margin-top: 0.1rem;
+}
+
+.howItWorks_cards {
+  margin-top: 1.2rem;
+  gap: 1.7rem;
+}
+
+.pick_section_btn {
+  margin-top: 2.5rem !important; 
+}
+
+.pick_section {
+  max-width: 94%;
+  padding: 0.6rem 0rem 2.5rem 0rem;
+}
+
+.fifth_section {
+  background-size: 25.5% 27%;
+  padding: 1.82rem 0;
+  padding-bottom: 3.74rem;
+}
+
+.testimonals_title {
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  margin-bottom: 1.2rem; 
+}
+
+.testimonial_text {
+ font-size: 13px;
+}
+
+.review_popup {
+  width: 13rem !important;
+  height: 20.3rem !important;
+  position: absolute;
+  left: 15%;
+  z-index: 99999;
+  overflow: auto;
+}
+
+.testimonals_card {
+  padding: 0.7rem;
+  padding-top: 0.5rem;
+}
+
+.user_name{
+  font-size: 14px;
+}
+
+.footer_social_medias { 
+  flex-direction: column;
+}
+
+.footer .orange_btn {
+  margin-top: 0.72rem;
+  margin-bottom: 2.75rem;
+  margin-left: 0rem !important;
+  margin-right: 0;
+  order: 2;
+}
+
+.social_medias{
+  order: 1 !important;
+}
+
+.social_medias { 
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap: 1.7rem;
+      margin-top: 1.3rem;
+}
+
+.social_media:nth-child(2) {
+  margin-top: 0.4rem ;
+
+}
+
+.social_media:nth-child(4) {
+  margin-top: 0rem;
+  margin-right: 0.4rem;
+}
+
+.footer_logo{ 
+  font-size: 1.1rem !important;
+  width: 100%;
+  margin-top: 0.43rem;
+  height: auto; 
+  border:none !important;
+}
+
+.footer_logo .logo_img {
+  width: 12px;
+  left: 52.5%;
+  top: -10%;
+}
+
+.footer_copyright {
+  width: 14rem;
+  font-size: 14px;
+  line-height: 225%;
+  padding-top: 0rem;
+  left: 4%;
+  bottom: 1.3rem;
+}
+
+.footer_logo_p {
+  margin-top: 1px;
+  letter-spacing: 0.6px;
+}
+
+footer {
+  height: 320px;
+}
+
+
+.footer_nav ul {
+  justify-content: space-around;
+  width:103%;
+  top: 100.5%;
+  left: 50.4%;
+  gap: 0rem;
+}
+
+.user_place {
+  font-size: 13.5px;
+}
+
+}
