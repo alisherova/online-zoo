@@ -520,12 +520,16 @@
     padding: 3.75rem 0;
     padding-bottom: 5rem;
   }
+
+  .testimonals {
+    overflow: visible;
+}
   
   .testimonals_cards {
     margin-right: 0.2rem;
     flex-direction: column;
     gap: 0.9rem;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .testimonals_card {
@@ -571,12 +575,7 @@
     margin-top: 2.46rem !important;
     margin-left: 11.3rem !important;
   }
-
-  .amount_error_msg{ 
-    font-size: 16px;
-    color: crimson;
-  }
-
+ 
   footer {
     height: 282px;
   }
@@ -875,6 +874,14 @@
  font-size: 13px;
 }
 
+.review_popup {
+  width: 13rem !important;
+  height: 20.3rem !important;
+  position: absolute;
+  left: 15%;
+  z-index: 99999;
+  overflow: auto;
+}
 
 .testimonals_card {
   padding: 0.7rem;

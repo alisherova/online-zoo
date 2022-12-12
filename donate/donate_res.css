@@ -229,6 +229,7 @@
 
   .amount_error_msg{ 
     font-size: 10px; 
+    color: crimson;
   }
 
   header {
